@@ -15,7 +15,6 @@ def load_matrix_from_csv(file_path):
 
 def benchmark_matrix_multiplication(matrix_a, matrix_b, sizes):
     results = {}
-    
     for size in sizes:
         sub_matrix_a = matrix_a[:size, :size]
         sub_matrix_b = matrix_b[:size, :size]
